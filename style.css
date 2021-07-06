@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+	background: url(images/shapes/hand-painted-watercolor-background-with-sky-clouds-shape.jpg);
+	background-repeat: no-repeat;
+}
+
+.container {
+	align-items: center;
+	display: flex;
+	height: 100vh;
+}
+.half {
+	width: 50%;
+	justify-content: space-around;
+	align-items: center;
+	margin: 4rem 2rem;
+}
+h1 {
+	font-size: 3.5rem;
+	letter-spacing: 1px;
+	font-weight: bolder;
+	padding: 1rem 0;
+	margin-left: 1rem;
+	color: rgb(173, 141, 147);
+}
+
+h1 span {
+	color: indianred;
+}
+p {
+	font-size: 1.1rem;
+	margin: 1rem 0;
+	padding: 1rem;
+	letter-spacing: 0.8px;
+	color: rgb(121, 120, 120);
+	line-height: 25px;
+}
+.me-part {
+	background: url(images/shapes/rm278-boom-124.jpg);
+	max-height: 1000pxxs;
+}
+
+img {
+	border-radius: 50%;
+	width: 600px;
+	height: 700px;
+}
+.img2 {
+	height: 600px;
+	border-radius: 50%;
+	margin: 5rem;
+	animation: up-down 2s ease-in-out infinite alternate-reverse both;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+@keyframes up-down {
+	0% {
+		transform: translateY(10px);
+	}
+	100% {
+		transform: translateY(-10px);
+	}
+}
+
+.about {
+	padding-bottom: 5rem;
+}
+
+/* Button */
+.btn {
+	padding: 1rem 2rem;
+	margin: 1rem;
+	background: linear-gradient(rgb(250, 62, 93), rgb(252, 86, 44));
+	margin-top: 2rem;
+	border-radius: 10px;
+	text-decoration: none;
+	text-transform: capitalize;
+	color: white;
+	font-size: 1rem;
+	font-weight: bolder;
+	transition: 0.5s ease;
+	box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+}
+.btn:hover {
+	padding: 1.5rem 2.5rem;
+	margin: 1.5rem;
+	border-radius: 15px;
+	font-size: 1.1rem;
+}
+
+.recipe-section {
+	/* section 3
+    (header+ recipe card) full container */
+	padding-top: 5%;
+	height: 100%;
+}
+
+h2 {
+	text-align: center;
+}
+#details {
+	text-align: center;
+	font-size: 0.8rem;
+	margin: 0 10%;
+}
+
+.all-recipe {
+	/* div for all 3 recipes */
+	display: flex;
+	flex-direction: row;
+	margin: 5%;
+	border-radius: 1rem;
+}
+.recipe {
+	/* each recipe card (image+details )*/
+	border-radius: 20px;
+	padding: 1rem;
+	margin: 2rem;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.img-card {
+	/* food image */
+	padding: 5% 0;
+	height: 300px;
+	width: 300px;
+	border-radius: 10px;
+	left: 2rem;
+}
+h3 {
+	margin: 10%;
+	text-align: center;
+}
+.recp-details {
+	/* recipe tutorial */
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 5%;
+	font-size: 0.8rem;
+	font-weight: 300;
+	text-align: center;
+}
+
+#reach {
+	width: 90%;
+	padding: 5%;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	justify-content: space-between;
+	align-items: center;
+}
+footer {
+	background: black;
+	height: 100%;
+	width: 100%;
+}
+h6 {
+	padding-top: 2%;
+	font-size: 1rem;
+	color: white;
+	text-align: center;
+	margin-bottom: 5px;
+}
+h6 span {
+	color: tomato;
+}
+.footer-para {
+	font-size: 1rem;
+	color: white;
+	font-weight: bolder;
+	text-align: center;
+}
+#tag {
+	font-size: 0.7rem;
+	color: white;
+	font-weight: bolder;
+	text-align: center;
+}
